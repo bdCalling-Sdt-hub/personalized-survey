@@ -1,0 +1,69 @@
+@keyframes gradientTransition {
+  0% {
+    background: linear-gradient(to top, #2b0636 10%, #8018a0 100%);
+  }
+  5% {
+    background: linear-gradient(to top, #2b0636 15%, #8919ac 100%);
+  }
+  10% {
+    background: linear-gradient(to top, #2b0636 20%, #8d1aaf 100%);
+  }
+  15% {
+    background: linear-gradient(to top, #2b0636 25%, #8319a3 100%);
+  }
+  20% {
+    background: linear-gradient(to top, #2b0636 30%, #7a1599 100%);
+  }
+  25% {
+    background: linear-gradient(to top, #2b0636 35%, #72148f 100%);
+  }
+  30% {
+    background: linear-gradient(to top, #2b0636 40%, #6e128a 100%);
+  }
+  35% {
+    background: linear-gradient(to top, #2b0636 45%, #621078 100%);
+  }
+  40% {
+    background: linear-gradient(to top, #2b0636 50%, #540d69 100%);
+  }
+  45% {
+    background: linear-gradient(to top, #2b0636 55%, #480b59 100%);
+  }
+  50% {
+    background: linear-gradient(to top, #2b0636 60%, #3e094e 100%);
+  }
+  55% {
+    background: linear-gradient(to top, #2b0636 65%, #360844 100%);
+  }
+  60% {
+    background: linear-gradient(to top, #2b0636 70%, #2e073b 100%);
+  }
+  65% {
+    background: linear-gradient(to top, #2b0636 75%, #260632 100%);
+  }
+  70% {
+    background: linear-gradient(to top, #2b0636 80%, #20042b 100%);
+  }
+  75% {
+    background: linear-gradient(to top, #2b0636 85%, #1c0326 100%);
+  }
+  80% {
+    background: linear-gradient(to top, #2b0636 90%, #170220 100%);
+  }
+  85% {
+    background: linear-gradient(to top, #2b0636 95%, #12011b 100%);
+  }
+  90% {
+    background: linear-gradient(to top, #2b0636 98%, #0f0117 100%);
+  }
+  100% {
+    background: linear-gradient(to top, #2b0636 100%, #0b0113 100%);
+  }
+}
+
+.bg-gradient-animation {
+  animation: gradientTransition 1s ease-in-out;
+  background: linear-gradient(to top, #0f1835 90%, #2b0636 100%);
+  /* background-size: 100% 200%;
+  background-position: bottom; */
+}

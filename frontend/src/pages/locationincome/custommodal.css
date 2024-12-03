@@ -1,0 +1,15 @@
+.custom-modal .ant-modal-content {
+    border: none; /* Remove modal border */
+    background-color: #242424; /* Ensure the modal content is fully black */
+    border-radius: 25px;
+    
+  }
+  .custom-modal .ant-modal-header {
+    border: none; /* Remove header border */
+  }
+  .custom-modal .ant-modal-body {
+    border: none; /* Remove body border */
+  }
+  .custom-modal .ant-modal-close {
+    color: white; /* Change close icon color */
+  }  
