@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.custom-select {
+  background-size: 16px; /* Size of the icon */
+
+  appearance: none; /* Hides default dropdown icon */
+  -webkit-appearance: none; /* For Safari */
+  -moz-appearance: none; /* For Firefox */
+  padding-right: 30px; /* Adjust for custom icon */
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zY3JpcHQtZGVmYXVsdCIgaGVpZ2h0PSI4MCIgd2lkdGg9IjgwiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KPHBhdGggZD0iTTEwMCAyMDBBMTAgMTAgMCAxIDEgMTAgNTIgMCAwIDEgMTEgMjAwTDc2IDIwMCJ4NzciIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSI2IiBzdHJva2UtbGluZWNhcD0ibm9uZSIgc3Ryb2tlLWRlY2t5cD0iZXZlbm9kZSIvPjwvc3ZnPg=="); /* Use an SVG icon */
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Position the icon */
+}
+
+.relative.bg-\[\#1D192999\] {
+  border-radius: 30px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
