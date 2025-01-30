@@ -92,7 +92,7 @@ const Activitylevel = () => {
     );
     try {
       const response = await fetch(
-        "http://localhost:3001/survey/create-survey",
+        "http://46.202.89.63:3001/survey/create-survey",
         {
           method: "POST",
           headers: {
